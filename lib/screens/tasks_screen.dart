@@ -11,7 +11,6 @@ class TasksScreen extends StatelessWidget {
         onPressed: null,
         backgroundColor: Colors.lightBlueAccent,
         child: Icon(Icons.add),
-
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -46,10 +45,8 @@ class TasksScreen extends StatelessWidget {
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 18.0,
-          
                       ),
-                      ),
-          
+                      ),     
                       ],
               ),
           ),
@@ -65,8 +62,7 @@ class TasksScreen extends StatelessWidget {
                         ),
                       ),
                   ),
-      ],
-           
+      ],  
       ),
     );
   }
